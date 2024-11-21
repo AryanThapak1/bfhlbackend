@@ -11,7 +11,7 @@ exports.sendData=async(req,res)=>{
         const { data, file_b64 } = req.body;
         
         const userId = "aryan_thapak_12012004";
-        const email = "aryanthapak8@gmail.com";
+        const email = "aryanthapak210082@acropolis.in";
         const rollNumber = "0827CS211046";
 
         const numbers = data.filter(item => !isNaN(item));
