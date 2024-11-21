@@ -1,7 +1,7 @@
 const express=require( "express");
 const dotenv=require("dotenv");
 const cors=require("cors");
-const dataRoute=require("./Routes/dataRoute");
+const dataRoute=require("../Routes/dataRoute");
 dotenv.config();
 const app=express();
 const PORT=process.env.PORT;
